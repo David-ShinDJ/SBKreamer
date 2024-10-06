@@ -1,9 +1,27 @@
-<a data-v-29bfee4c="" href="/" class="top_link"> 로그아웃 </a>
-<a data-v-29bfee4c="" href="/login" class="top_link"> 로그인 </a>
-<a data-v-9715c29c="" href="/search" class="gnb_link"> SHOP </a>
+<span data-v-15b02101="" class="main_title">카테고리</span>
+<p data-v-15b02101="" data-v-5e7b5055="" class="filter_child_title" style="display: none;">아우터</p>
+<span data-v-5e7b5055="" class="link_txt">자켓</span>
+<span data-v-15b02101="" class="main_title">성별</span>
+<span data-v-5e7b5055="" class="link_txt">남성</span>
+<button data-v-51fba772="" type="button" class="sorting_title"> 추천순 </button>
+<p data-v-2e36d9f0="" class="main_desc">남성 인기순</p>
+<span data-v-15b02101="" class="main_title">색상</span>
+<ul data-v-3561e1fb="" data-v-15b02101="" class="menu_list_child menu_2depth"><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">자켓</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">아노락</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">코트</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">패딩</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">기타 아우터</span></a></li></ul>
+<ul data-v-3561e1fb="" data-v-15b02101="" class="menu_list_child" data-v-5e7b5055=""><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">남성</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">여성</span></a></li><li data-v-5e7b5055="" data-v-3561e1fb="" class="menu"><a data-v-5e7b5055="" href="#" class="menu_link"><svg data-v-5e7b5055="" xmlns="http://www.w3.org/2000/svg" class="icon sprite-icons checkbox-inactive"><use data-v-5e7b5055="" href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive" xlink:href="/_nuxt/910f92e8d07536c75895d26ab2e21e03.svg#i-checkbox-inactive"></use></svg><span data-v-5e7b5055="" class="link_txt">키즈</span></a></li></ul>
 
 
 
+
+
+
+
+
+
+
+
+
+
+method 종류
 self.open(url)  # Navigate the browser window to the URL.
 self.type(selector, text)  # Update the field with the text.
 self.click(selector)  # Click the element with the selector.
