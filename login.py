@@ -1,4 +1,6 @@
 from seleniumbase import SB
+email = "ehdwnsqkqhek@naver.com"
+password = "Tls1169511!"
 class Login:
     def __init__(self, email, password):
         self.email = email
