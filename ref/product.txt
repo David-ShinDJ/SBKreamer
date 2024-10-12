@@ -3,9 +3,9 @@
 옵션명
 즉시구매가격
 보관판매가격
-마진률(%)_net
 마진(원)_net
-예상마진_net
+마진률(%)_net
+예상마진_net = 빨간색 구매가 - 판매입찰 기본 5개값을 뺀값
 최근보관판매체결금액-즉시구매가격
 보판_최근체결날짜
 전체_최근체결날짜
@@ -27,8 +27,8 @@ product_url = None
 product_option = None
 product_ipp = None
 product_ssp = None
-product_mr = None
 product_mn = None
+product_mr = None
 product_exmn = None
 product_ssp_ipp = None
 product_rssp_day = None

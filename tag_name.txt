@@ -21,6 +21,25 @@
                     <div>
                 <div>
 
+            <div class=detail_wrap>
+                <div class=wrap_bids>
+                    <div class=tab_area>
+                        <div class=ta_content show>
+                            <div class=price_table table_wrap lg>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class=table_td align_right>
+                                                <div>
+                                                    <span> 700,000원
+                                <table>
+                            <div>
+                        <div>
+                    <div>
+                <div>
+
+            <div>
+
             <div>
 
         <div>

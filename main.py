@@ -6,10 +6,10 @@ product_url = None
 product_option = None
 product_ipp = None
 product_ssp = None
-product_mr = None
 product_mn = None
+product_mr = None
 product_exmn = None
-product_ssp_ipp = None
+product_r_ssp_ipp = None
 product_rssp_day = None
 product_ra_day = None
 product_mpc = None
@@ -41,12 +41,17 @@ with SB() as sb:
     product_url = sb.get_current_url()
     product_option = sb.get_text('div.product_figure_wrap.lg span.title-txt')
     product_ipp = sb.get_text('div.price-text-container p.text-lookup.price.display_paragraph')
+    product_mn = int(product_ssp) - int(product_ipp)
+    product_mr = f"{(int(product_mn) / int(product_ssp)) * 100: 2f}%"
+    sb.wait_for_element('div.content div.detail_wrap')
+    product_exmn = sb.get_text('price_table.table_wrap.lg td.table_td.align_right span')
+
     sb.go_back()
     sb.sleep(5)
     # sb.click('li.menu p:contains("%s")' % self.basic_filter2, timeout=10)
 
 ## 가져와야할 데이터
-print(product_name, product_url, product_option, product_ipp)
+print(product_name, product_url, product_option, product_ipp, product_mn, product_mr, product_exmn)
 
 
 
