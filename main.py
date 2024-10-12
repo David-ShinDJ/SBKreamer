@@ -1,4 +1,4 @@
-import time
+import time,re
 from seleniumbase import SB
 
 product_name = None
@@ -40,18 +40,22 @@ with SB() as sb:
     product_name = sb.get_text('div.main-title-container p.sub-title')
     product_url = sb.get_current_url()
     product_option = sb.get_text('div.product_figure_wrap.lg span.title-txt')
-    product_ipp = sb.get_text('div.price-text-container p.text-lookup.price.display_paragraph')
-    product_mn = int(product_ssp) - int(product_ipp)
-    product_mr = f"{(int(product_mn) / int(product_ssp)) * 100: 2f}%"
+    product_ipp = int(re.sub(r'[^\d]', '', sb.get_text('div.price-text-container p.text-lookup.price.display_paragraph')))
+    product_ssp_elements = sb.find_elements('div.btn_wrap div.price em')
+    product_ssp = int(re.sub(r'[^\d]', '', product_ssp_elements[1].text))
+    product_mn = product_ssp - product_ipp
+    product_mr = f"{(product_mn / product_ssp) * 100:.2f}%"
     sb.wait_for_element('div.content div.detail_wrap')
-    product_exmn = sb.get_text('price_table.table_wrap.lg td.table_td.align_right span')
-
+## TODO: exmn_elements <td>태그 확인해서 텍스트값 전부 불러오기
+    product_exmn_elements = sb.find_elements("price_table.table_wrap.lg td.table_td.align_right span")
+    print(product_exmn_elements, product_exmn[0].text)
+    product_exmn = [product_exmn_elements.text for price in product_exmn_elements]
     sb.go_back()
     sb.sleep(5)
     # sb.click('li.menu p:contains("%s")' % self.basic_filter2, timeout=10)
 
 ## 가져와야할 데이터
-print(product_name, product_url, product_option, product_ipp, product_mn, product_mr, product_exmn)
+print(product_name, product_url, product_option, product_ipp, product_ssp, product_mn, product_mr, product_exmn)
 
 
 

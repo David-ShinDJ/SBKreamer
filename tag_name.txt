@@ -21,6 +21,14 @@
                     <div>
                 <div>
 
+                <div class=btn_wrap>
+                    <button class="btn_action">
+                        <div class="price">
+                            <em class="num>688,000<em>
+                        <div>
+                    <button>
+                <div>
+
             <div class=detail_wrap>
                 <div class=wrap_bids>
                     <div class=tab_area>
