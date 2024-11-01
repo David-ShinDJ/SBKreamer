@@ -1,0 +1,34 @@
+method 종류
+self.open(url)  # Navigate the browser window to the URL.
+self.type(selector, text)  # Update the field with the text.
+self.click(selector)  # Click the element with the selector.
+self.click_link(link_text)  # Click the link containing text.
+self.go_back()  # Navigate back to the previous URL.
+self.select_option_by_text(dropdown_selector, option)
+self.hover_and_click(hover_selector, click_selector)
+self.drag_and_drop(drag_selector, drop_selector)
+self.get_text(selector)  # Get the text from the element.
+self.get_current_url()  # Get the URL of the current page.
+self.get_page_source()  # Get the HTML of the current page.
+self.get_attribute(selector, attribute)  # Get element attribute.
+self.get_title()  # Get the title of the current page.
+self.switch_to_frame(frame)  # Switch into the iframe container.
+self.switch_to_default_content()  # Leave the iframe container.
+self.open_new_window()  # Open a new window in the same browser.
+self.switch_to_window(window)  # Switch to the browser window.
+self.switch_to_default_window()  # Switch to the original window.
+self.get_new_driver(OPTIONS)  # Open a new driver with OPTIONS.
+self.switch_to_driver(driver)  # Switch to the browser driver.
+self.switch_to_default_driver()  # Switch to the original driver.
+self.wait_for_element(selector)  # Wait until element is visible.
+self.is_element_visible(selector)  # Return element visibility.
+self.is_text_visible(text, selector)  # Return text visibility.
+self.sleep(seconds)  # Do nothing for the given amount of time.
+self.save_screenshot(name)  # Save a screenshot in .png format.
+self.assert_element(selector)  # Verify the element is visible.
+self.assert_text(text, selector)  # Verify text in the element.
+self.assert_exact_text(text, selector)  # Verify text is exact.
+self.assert_title(title)  # Verify the title of the web page.
+self.assert_downloaded_file(file)  # Verify file was downloaded.
+self.assert_no_404_errors()  # Verify there are no broken links.
+self.assert_no_js_errors()  # Verify there are no JS errors.

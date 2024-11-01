@@ -1,10 +1,13 @@
-제품_이름
-제품_URL
-옵션명
-즉시구매가격
-보관판매가격
-마진(원)_net
-마진률(%)_net
+제품_이름 name
+제품_URL url
+옵션명 option
+즉시구매가격 ipp
+보관판매가격 ssp
+마진 m ##FIXME : 보관판매가 - 즉시구매가
+마진률 mr
+제품_정보 info ## FIXME : 최근거래가 rtp, 최근가격변동 rpc, 발매가 rp, 모델번호 mn, 출시일 rd, 대표색상 rc
+
+## TODO: 로그인후에 추출해야할값들
 예상마진_net = 빨간색 구매가 - 판매입찰 기본 5개값을 뺀값
 최근보관판매체결금액-즉시구매가격
 보판_최근체결날짜
@@ -22,27 +25,3 @@
 상품전체갯수
 현재페이지
 전체페이지
-product_name = None
-product_url = None
-product_option = None
-product_ipp = None
-product_ssp = None
-product_mn = None
-product_mr = None
-product_exmn = None
-product_ssp_ipp = None
-product_rssp_day = None
-product_ra_day = None
-product_mpc = None
-product_pip = None
-product_sip = None
-product_id = None
-product_category = None
-product_reviews = None
-product_rp = None
-product_brand = None
-product_number = None
-product_color = None
-product_quantity = None
-now_page = None
-all_page = None

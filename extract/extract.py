@@ -64,12 +64,3 @@ def get_products(products: list):
         print("-" * 20)
 
 get_products(products)
-
-
-
-
-
-
-
-
-

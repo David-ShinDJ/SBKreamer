@@ -9,7 +9,6 @@
                 <div class=main-title-container>
                     <p data-v-7728c728="" class="sub-title">상품이름</p>
 
-
                 <div class=product_figure_wrap lg>
                     <div class=detail-size>
                         <div class=title>
@@ -30,14 +29,10 @@
                             <div class=detail-box>
                                 <div class=product_info>대표색상<div>
 
-
                 <div class=btn_wrap>
                     <button class="btn_action">
                         <div class="price">
                             <em class="num>보관판매가<em>
-
-
-
 
             <div class=detail_wrap>
                 <div class=wrap_bids>
@@ -50,6 +45,3 @@
                                             <td class=table_td align_right>
                                                 <div>
                                                     <span> 보관판매가 <span>
-
-
-

@@ -1,0 +1,13 @@
+<div class=content-container>
+    <div class=content>
+        <div class=search_content>
+            <div class=sho-content>
+                <div>
+                    <div class=search_result lg>
+                        <div class=search_list>
+                            <div class=search_result.item content index=0>
+                            <div class=search_result_item product index=1>
+                            <div class=search_result_item product index=2>
+                            <div class=search_result_item product index=3>
+                            <div class=search_result_item product index=4>
+                            ...
